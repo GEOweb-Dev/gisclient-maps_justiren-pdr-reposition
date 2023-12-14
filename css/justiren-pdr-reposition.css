@@ -1,0 +1,233 @@
+.justiren-pdr-reposition_freq-section {
+  position: relative;
+  border: 1px solid #ddd;
+  padding-top: 10px;
+  padding-right: 2px;
+  padding-bottom: 10px;
+  padding-left: 2px;
+}
+
+.justiren-pdr-reposition_freq-section h1 {
+  position: absolute;
+  top: 0;
+  font-size: 12px;
+  line-height: 1;
+  margin: -6px 0 0; /* half of font-size */
+  background: #fff;
+  padding: 0 3px;
+}
+
+.justiren-pdr-reposition_freq-section a {
+    float: right;
+}
+
+.justiren-pdr-reposition_freq-section span.icon-highlight {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    margin-right:5px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../../resources/img/glyphicons-halflings.png");
+    background-repeat: no-repeat;
+    background-position: -96px -120px;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.justiren-pdr-reposition_substation-freq-selected span.icon-highlight {
+    background-color: #aaaaaa;
+    background-image: url("../../resources/img/glyphicons-halflings-white.png") !important;
+}
+
+.justiren-pdr-reposition_freq-section span.icon-filter {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    margin-right:5px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../../resources/img/glyphicons-halflings.png");
+    background-repeat: no-repeat;
+    background-position: -408px -144px;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+#justiren-pdr-reposition_panel {
+    display: none;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+#justiren-pdr-reposition_panel a {
+    color: #FFFFFF;
+}
+
+#justiren-pdr-reposition_panel_content div {
+    display: flow-root;
+}
+
+*::-ms-backdrop,#justiren-pdr-reposition_panel_content div {
+    display: table;
+    width: 410px;
+}
+
+#justiren-pdr-reposition_panel_content div.pdr_section_container {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    padding: 5px;
+}
+
+#justiren-pdr-reposition_panel_content span.pdr_data_header {
+    float: left;
+}
+
+#justiren-pdr-reposition_panel_content span.pdr_data_content {
+    float: right;
+}
+
+#justiren-pdr-reposition_panel_parent_content div {
+    display: flow-root;
+}
+
+*::-ms-backdrop,#justiren-pdr-reposition_panel_parent_content div {
+    display: table;
+    width: 410px;
+}
+
+#justiren-pdr-reposition_panel_parent_content span.pdr_data_header {
+    float: left;
+}
+
+#justiren-pdr-reposition_panel_parent_content span.pdr_data_content {
+    float: right;
+}
+
+#justiren-pdr-reposition_panel_header {
+    margin-bottom: : 5px;
+}
+
+#justiren-pdr-reposition_panel span.icon-hide-panel {
+    float: left;
+    display: inline-block;
+    color: #FFFFFF;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    margin-right:5px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../../resources/img/glyphicons-halflings-white.png");
+    background-repeat: no-repeat;
+    background-position: -312px -120px;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+#justiren-pdr-reposition_panel span.icon-show-panel {
+    float: left;
+    display: inline-block;
+    color: #FFFFFF;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    margin-right:5px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../../resources/img/glyphicons-halflings-white.png");
+    background-repeat: no-repeat;
+    background-position: -456px -72px;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+#justiren-pdr-reposition_panel span.justiren-pdr-reposition_panel_separator {
+    display: inline-block;
+    width: 350px;
+    border-top: 1px solid #ccc;
+}
+
+#justiren-pdr-reposition_panel_toolbar_color {
+    font-size: 14px;
+}
+
+#map-toolbar-justiren-pdr-reposition-colorpicker {
+    z-index: 1000;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 2px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+#justiren-pdr-reposition_color-picker {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    border-radius: 0px !important;
+}
+
+.modEEColorPickerButtons {
+    text-align: center;
+}
+
+.modEEColorPickerClose {
+    margin-left: 10px;
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.modEEfields1nRow label {
+    font-weight: 100 !important;
+    margin-left: 10px;
+}
+
+.modEEfields1nRow .olButton {
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    display: inline-block;
+    outline: medium none;
+    text-decoration: none;
+    margin:4px 2px 4px 4px;
+    padding: 2px 4px 0px 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.modEEfields1nRow .olButton span {
+    color: #FFFFFF;
+    margin-left: 3px;
+}
+
+.modEEfields1nRow .fldType7Select span:before {
+    content: 'Seleziona tutto';
+}
+
+.modEEfields1nRow .fldType7Unselect span:before {
+    content: 'Deseleziona tutto';
+}
+
+.text-gradient {
+  color: darkblue;
+  background: linear-gradient(
+            to right, #f32170, #ff6b08, #00FFFF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.icon-justiren-pdr-reposition {
+    background: url("../../plugins/gisclient-maps_justiren-pdr-reposition/css/images/justiren-pdr-reposition.png");
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    text-indent: -9999px;
+    margin-top:8px;
+    margin-left:8px;
+}

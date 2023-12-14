@@ -1,0 +1,32 @@
+clientConfig.PLUGINS_CONFIG['justiren-pdr-reposition'] = {
+    pluginLayers: [''],
+    pluginDOMElements: [
+        {
+            type:'div',
+            id: 'map-toolbar-justiren-pdr-reposition',
+            parent: 'map-toolbars',
+            class: ['olToolbarsControl']
+        }
+    ],
+    pluginComponents: ['gisclient-maps_justiren-pdr-reposition:JUSTIren-PDRReposition_Control:2:itools','gisclient-maps_justiren-pdr-reposition:JUSTIren-PDRReposition_Functions:99:zhidden'],
+    pluginClientConfig: {
+        JUSTIREN_PDRREPOSITION_PDR_LAYER: '',
+        JUSTIREN_PDRREPOSITION_PDR_LAYER_COLOR: 'blue',
+        JUSTIREN_PDRREPOSITION_PDR_LAYER_WIDTH: '5',
+        JUSTIREN_PDRREPOSITION_PDR_NEW_LAYER: '',
+        JUSTIREN_PDRREPOSITION_PDR_NEW_LAYER_COLOR: 'green',
+        JUSTIREN_PDRREPOSITION_PDR_NEW_LAYER_WIDTH: '5',
+        JUSTIREN_PDRREPOSITION_PDR_DIST_LAYER_COLOR: 'red',
+        JUSTIREN_PDRREPOSITION_PDR_DIST_LAYER_WIDTH: '1',
+        JUSTIREN_PDRREPOSITION_PDR_DIST_MAX: 0,
+        JUSTIREN_PDRREPOSITION_PDR_DIST_LAYER: '',
+        JUSTIREN_PDRREPOSITION_PDR_ID_FIELD: '',
+        JUSTIREN_PDRREPOSITION_PDR_MAX_NUM: 999,
+        JUSTIREN_PDRREPOSITION_PDR_SAP_FIELDS: {
+            codiceOggetto: '',
+            indirizzoSAP: ''
+        },
+        JUSTIREN_PDRREPOSITION_PDR_SAP_SRID: 'EPSG:4326',
+        JUSTIREN_PDRREPOSITION_PDR_GIS04_SERVICEURL: ''
+    }
+}
